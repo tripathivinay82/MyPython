@@ -1,0 +1,54 @@
+{
+  "routes": [
+    {
+      "nexthop": {
+        "gateways": [
+          {
+            "flexibleTunnelProfile": {
+              "attributes": {
+                "vxlan": {
+                  "destinationAddress": {
+                    "inet": {
+                      "addrString": "20.20.20.1"
+                    }
+                  }, 
+                  "sourceUdpPortRange": {
+                    "max": 65535, 
+                    "min": 49152
+                  }, 
+                  "sourcePrefix": {
+                    "inet": {
+                      "addrString": "20.20.20.2"
+                    }
+                  }, 
+                  "flags": 8, 
+                  "vni": 2, 
+                  "destinationUdpPort": 4789, 
+                  "destinationMac": {
+                    "addrString": "1a:2b:3c:4a:5a:6a"
+                  }, 
+                  "sourcePrefixLen": 32
+                }
+              }, 
+              "interfaceName": "fti0.1"
+            }
+          }
+        ]
+      }, 
+      "key": {
+        "destPrefixLen": 32, 
+        "table": {
+          "rttName": {
+            "name": "C1.inet.0"
+          }
+        }, 
+        "destPrefix": {
+          "inet": {
+            "addrString": "40.40.40.2"
+          }
+        }, 
+        "cookie": "1"
+      }
+    }
+]
+}
