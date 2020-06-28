@@ -1,2 +1,2 @@
 # MyPython
-Programmes written while learning up Python basics
+Python Programs for Learning Basics
