@@ -1,0 +1,7 @@
+Data Type,Data Mined from RSI
+Chassis Model,mx10003
+JUNOS Version,18.2X75-D24.6
+Active Alarm,NO
+Top 5 active process,"md9.uzip,mib2d,md21.uzip,geom{g_up},geom{g_down},"
+IPv4 Loopback Address,104.44.217.229
+Total IPv4 Route Count,7893
