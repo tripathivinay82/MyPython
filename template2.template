@@ -1,0 +1,6 @@
+Value TIME (\d+:\d+:+\d+.\d+)
+Value ZONE ([A-Z]{3})
+Value DAY (\w{3})
+
+Start
+  ^${TIME} ${ZONE} ${DAY} \w+ -> Record
